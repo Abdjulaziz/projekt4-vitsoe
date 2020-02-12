@@ -7,31 +7,63 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Projekt 4</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <script src="javascript.js" defer></script>
 
 </head>
 
 <body>
-  <h1>Projekt 4</h1>
-  <nav>
-    <ul>
-      <li>Forside</li>
-      <li>Området</li>
-      <li>Koncerter</li>
-      <li>Kontakt Os</li>
+  <!-- Vil gerne have en navbar ala https://niklassp.dk/ -->
+  <nav class="navbar">
+    <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+      <i class="fa fa-bars fa-fw"></i>
+    </label>
+    <a href="index.html#ommig">
+      <h1 class="logo">Vitsø Naturområde</h1>
+    </a>
+    <input type="checkbox" id="chkToggle"></input>
+    <ul class="main-nav" id="js-menu">
+
+      <li>
+        <a href="index.html#kompetencer" class="nav-links hvr-underline-from-center">Forside</a>
+      </li>
+      <li>
+        <a href="index.html#cases" class="nav-links hvr-underline-from-center">Naturen</a>
+      </li>
+      <li>
+        <a href="index.html#kontakt" class="nav-links hvr-underline-from-center">Dyrene</a>
+      </li>
+      <li>
+        <a href="index.html#kontakt" class="nav-links hvr-underline-from-center">Gåruter</a>
+      </li>
     </ul>
   </nav>
 
   <section>
+    <div class="startHero">
+      <div class="startHeroText">
+        <h2>Vitsø Naturområde</h2>
+        <p>Et 150 hektar story naturområde med en sø, strandenge og ferske enge. Med rig mulighed for at udforske
+          naturen</p>
+      </div>
+    </div>
+  </section>
 
+  <section>
+    <div class="islandGrid">
+      <div class="islandText">
+        <h2>Text</h2>
+        <p>Ttexasdaskd asdk jasdk ajsd kasjdskndkf sjk ajsdkas dkasjdkwjaksd.</p>
+      </div>
+      <div class="islandImg">
+        <img src="assets/aaroe.svg" alt="">
+      </div>
+    </div>
   </section>
 
 
-  <footer>
 
-
-  </footer>
-
-  <script src="javascript.js"></script>
 </body>
 
 </html>
