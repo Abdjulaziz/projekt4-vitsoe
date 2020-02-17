@@ -167,55 +167,9 @@ li a:hover {
 
 }
 
-.islandImg {
-    width: 90%;
+
+.slideShow {
     margin: auto;
-}
-
-
-
-
-
-@media screen and (min-width: 1000px) {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0;
-        height: 70px;
-        align-items: center;
-    }
-
-    #chkToggle:checked+ul.main-nav {
-        display: flex;
-    }
-
-    .main-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    .main-nav li {
-        margin: 0;
-    }
-
-    .nav-links {
-        margin-left: 40px;
-    }
-
-    .logo {
-        margin-top: 0;
-    }
-
-    .navbar-toggle {
-        display: none;
-    }
-
-    .nav-links:hover {
-        color: #1b2021;
-        text-decoration: none;
-    }
 }
 
 /* Slideshow container */
@@ -328,5 +282,48 @@ li a:hover {
     .islandGrid {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    #chkToggle:checked+ul.main-nav {
+        display: flex;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .nav-links:hover {
+        color: #1b2021;
+        text-decoration: none;
     }
 }
