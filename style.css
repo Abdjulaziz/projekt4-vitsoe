@@ -41,14 +41,12 @@ nav {
 
 }
 
-.navbar {
+#navbar {
     position: fixed;
     top: 0;
     width: 100%;
     font-size: 18px;
-    padding-bottom: 10px;
-
-
+    transition: 0.4s;
 }
 
 .main-nav {
@@ -286,7 +284,7 @@ li a:hover {
 
 
 @media screen and (min-width: 1000px) {
-    .navbar {
+    #navbar {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
