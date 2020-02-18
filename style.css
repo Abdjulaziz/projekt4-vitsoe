@@ -55,7 +55,7 @@ nav {
 }
 
 .nav-links,
-.logo {
+#logo {
     text-decoration: none;
     color: #1b2021;
 }
@@ -65,10 +65,10 @@ nav {
     margin: 15px auto;
 }
 
-.logo {
+#logo {
     text-decoration: none;
     display: inline-block;
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -161,7 +161,9 @@ li a:hover {
 
 .islandText {
     width: 70%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 
@@ -255,6 +257,17 @@ li a:hover {
     animation-duration: 1.5s;
 }
 
+footer {
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 20px;
+    /* Footer farve?
+    background-color: grey;  */
+    text-align: center;
+
+}
+
 @-webkit-keyframes fade {
     from {
         opacity: .4
@@ -311,7 +324,7 @@ li a:hover {
         margin-left: 40px;
     }
 
-    .logo {
+    #logo {
         margin-top: 0;
     }
 
