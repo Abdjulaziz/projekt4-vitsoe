@@ -6,7 +6,6 @@
     line-height: 1.6;
     margin: 0;
     padding: 0;
-
 }
 
 html {
@@ -15,12 +14,10 @@ html {
 
 body,
 html {
-    background-color: white;
-    font-family: 'Arial',
-        Helvetica,
-        Arial,
-        Lucida,
+    background-color: #FFFFFF;
+    font-family: 'Montserrat',
         sans-serif;
+
     height: 100%;
     padding-top: 0;
     width: 100%;
@@ -29,7 +26,6 @@ html {
 h2 {
     text-align: center;
     font-size: 250%;
-
 }
 
 h3 {
@@ -43,7 +39,6 @@ h4 {
 nav {
     position: relative;
     z-index: 100;
-
 }
 
 #navbar {
@@ -105,6 +100,11 @@ li a:hover {
     color: #1b2021;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -155,7 +155,7 @@ li a:hover {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #FFFFFF;
 }
 
 .frontpageGrid {
@@ -176,7 +176,7 @@ li a:hover {
 }
 
 .break {
-    background: red;
+    background: #FF0000;
     border: none;
     height: 20px;
     margin: 0 auto;
@@ -202,7 +202,7 @@ hr {
 .undersideGridContent {
     position: relative;
     text-align: center;
-    color: white;
+    color: #FFFFFF;
     padding: 1rem;
 }
 
@@ -215,35 +215,36 @@ hr {
     position: absolute;
     bottom: 1.5rem;
     left: 1.5rem;
-
 }
 
-
+.undersideGridContent:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+}
 
 .callToAction {
-    margin-top: 5%;
+    margin-top: 4%;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    background-color: red;
-    color: white;
+    background-color: #FF0000;
+    color: #FFFFFF;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
 }
 
-
-
-.callToAction button {
+.callToActionButton {
     margin-left: 20px;
     font-size: 30px;
     font-weight: bold;
-    color: black;
-    background-color: white;
-    border-color: white;
-    border-width: 10px;
-    border-radius: 15px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-width: 15px;
+    border-radius: 28px;
 }
+
 
 footer {
     background-color: #f8f8f8;
@@ -253,15 +254,18 @@ footer {
     margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 .footerGridText {
     padding-left: 20%;
 }
 
+.footerGridText ul {
+    font-size: 18px;
+}
+
 .footerGrid hr {
-    background: red;
+    background: #FF0000;
     border: none;
     height: 10px;
     text-align: left;
@@ -273,10 +277,8 @@ footer {
     margin-top: 4%;
     text-align: center;
     font-weight: bold;
+    padding-bottom: 1%;
 }
-
-
-
 
 @media (max-width: 900px) {
     .frontpageGrid {
@@ -284,7 +286,6 @@ footer {
         grid-gap: 1rem;
     }
 }
-
 
 @media screen and (min-width: 1000px) {
     #navbar {
