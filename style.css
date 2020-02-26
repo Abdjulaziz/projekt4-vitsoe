@@ -278,7 +278,6 @@ footer {
 }
 
 .footerGrid hr {
-    background: #FF0000;
     border: none;
     height: 5px;
     text-align: left;
@@ -287,12 +286,28 @@ footer {
     border-radius: 50px;
 }
 
+.hr1 {
+    background: #FCD20F;
+
+}
+
+.hr2 {
+    background: #00933D;
+
+}
+
+.hr3 {
+    background: #D10430;
+}
+
 .footerCopyright {
     margin-top: 4%;
     text-align: center;
     font-weight: bold;
     padding-bottom: 1%;
 }
+
+
 
 @media (max-width: 900px) {
     .frontpageGrid {
