@@ -161,12 +161,11 @@ a {
 }
 
 .frontpageGrid {
-
+  background-color: white;
   display: grid;
   text-align: center;
   grid-template-columns: repeat(2, 1fr);
-  padding-bottom: 4%;
-
+  /*padding-bottom: 4%;*/
 }
 
 .frontpageGridText {
@@ -209,9 +208,20 @@ hr {
 }
 
 #ruter {
-  padding-top: 4%;
+  padding-top: 2.5%;
+  padding-bottom: -0.5%;
+
 }
 
+#ruter h2 {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.videotekst {
+  margin-top: 2.5%;
+  margin-bottom: -1.5%;
+}
 
 .reklameVideo {
   text-align: center;
@@ -250,7 +260,6 @@ hr {
 }
 
 .callToAction {
-  margin-top: 4%;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -328,10 +337,17 @@ footer {
   padding-bottom: 1%;
 }
 
+.slideShow {
+
+  padding-bottom: 4%;
+  background-color: white;
+
+}
+
 /* Slideshow container */
 .slideshow-container {
 
-  max-width: 800px;
+  max-width: 80vw;
   position: relative;
   margin: auto;
 }
