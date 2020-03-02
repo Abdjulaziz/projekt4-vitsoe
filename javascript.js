@@ -1,3 +1,4 @@
+//header
 window.onscroll = function () {
     scrollFunction()
 };
@@ -13,7 +14,7 @@ function scrollFunction() {
     }
 }
 
-//
+//slider
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -44,4 +45,9 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
+}
+
+//scroll indicator
+function scrollIndicator(n) {
+    window.scrollBy(100, 0);
 }
