@@ -344,6 +344,11 @@ footer {
 
 }
 
+video {
+  width: 80vw;
+  height: auto;
+}
+
 /* Slideshow container */
 .slideshow-container {
 
@@ -496,5 +501,29 @@ footer {
   .nav-links:hover {
     color: #1b2021;
     text-decoration: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .desktopGridImage {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .mobileGridImage {
+    display: none;
+  }
+}
+
+@media (max-width:900px) {
+  .callToAction {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .footerGrid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
