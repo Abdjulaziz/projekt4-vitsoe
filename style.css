@@ -138,7 +138,7 @@ a {
 }
 
 .startHero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/heroplaceholder.jpg");
+  background-image: url("assets/vand.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -153,12 +153,41 @@ a {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FFFFFF;
 }
 
 .startHeroText h2 {
   margin-top: 15%;
 }
+
+.top-panel::before {
+  content: '╲╱';
+  color: #fff;
+  position: absolute;
+  opacity: 0.8;
+  text-shadow: 0 0 .5rem rgba(0, 0, 0, 0.5);
+  width: 6rem;
+  font-size: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  bottom: 2rem;
+  margin-left: -3rem;
+  left: 50%;
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
 
 .frontpageGrid {
   background-color: white;
