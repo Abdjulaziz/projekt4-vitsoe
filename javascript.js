@@ -48,6 +48,6 @@ function showSlides(n) {
 }
 
 //scroll indicator
-function scrollIndicator(n) {
-    window.scrollBy(100, 0);
+function scrollIndicator() {
+    window.scrollBy(0, 800);
 }
