@@ -138,7 +138,7 @@ a {
 }
 
 .startHero {
-  background-image: url("assets/vand.jpg");
+  background-image: url("assets/vand.webp");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,9 +185,6 @@ a {
     transform: translateY(0);
   }
 }
-
-
-
 
 .frontpageGrid {
   background-color: white;
@@ -240,7 +237,6 @@ hr {
 #ruter {
   padding-top: 2.5%;
   padding-bottom: -0.5%;
-
 }
 
 #ruter h2 {
@@ -368,10 +364,8 @@ footer {
 }
 
 .slideShow {
-
   padding-bottom: 4%;
   background-color: white;
-
 }
 
 video {
@@ -381,7 +375,6 @@ video {
 
 /* Slideshow container */
 .slideshow-container {
-
   max-width: 80vw;
   position: relative;
   margin: auto;
