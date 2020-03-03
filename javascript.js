@@ -49,6 +49,6 @@ function showSlides(n) {
 
 //scroll indicator
 function scrollIndicator() {
-    var elmnt = document.getElementById("content");
-    elmnt.scrollIntoView();
+    var elmnt = document.getElementById("naturen");
+    elmnt.scrollIntoView(true);
 }
