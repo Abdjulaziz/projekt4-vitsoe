@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* CSS Document */
 * {
   box-sizing: border-box;
   line-height: 1.6;
@@ -226,17 +225,6 @@ hr {
   border: 0;
 }
 
-/*
-#dyrene {
-  padding-top: 9%;
-  padding-bottom: 4%;
-}
-
-#naturen {
-  padding-top: 9%;
-  padding-bottom: 4%;
-}
-*/
 #ruter {
   padding-top: 2.5%;
   padding-bottom: -0.5%;
