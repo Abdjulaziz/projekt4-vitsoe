@@ -190,8 +190,6 @@ a {
   display: grid;
   text-align: center;
   grid-template-columns: repeat(2, 1fr);
-  /*padding-bottom: 4%;
-	*/
 }
 
 .frontpageGridText {
@@ -222,6 +220,8 @@ a {
 hr {
   border: 0;
 }
+
+
 
 #ruter {
   padding-top: 2.5%;
@@ -291,6 +291,35 @@ hr {
 .undersideGridContent:hover {
   transform: scale(1.05);
   transition: 0.7s;
+}
+
+.blog {
+  text-align-last: center;
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+
+.blogGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2.5rem;
+  margin: 2.5rem;
+}
+
+
+
+.blogImg {
+  width: 100%;
+}
+
+.blogReadMore {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+
 }
 
 .callToAction {
@@ -371,10 +400,7 @@ footer {
   padding-bottom: 1%;
 }
 
-.slideShow {
-  padding-bottom: 4%;
-  background-color: white;
-}
+
 
 @media (max-width: 1000px) {
   .frontpageGrid {
