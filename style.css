@@ -33,7 +33,7 @@ h4 {
 }
 
 .articleNavbar {
-  background-color: white;
+  background-color: #f8f8f8;
 }
 
 nav {
@@ -161,7 +161,25 @@ a {
   margin-top: 15%;
 }
 
-.articleHero {
+.articleHero1 {
+  background-image: url("assets/skov2.jpg");
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.articleHero2 {
+  background-image: url("assets/dyr.jpg");
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.articleHero3 {
   background-image: url("assets/skov.jpg");
   height: 40vh;
   background-position: center;
@@ -255,8 +273,6 @@ hr {
   border: 0;
 }
 
-
-
 #ruter {
   padding-top: 2.5%;
   padding-bottom: -0.5%;
@@ -267,16 +283,11 @@ hr {
   padding-bottom: 2.5%;
 }
 
-
-
 .blog {
   text-align-last: center;
-
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 3rem;
 }
-
-
 
 .blogGrid {
   display: grid;
@@ -284,8 +295,6 @@ hr {
   grid-gap: 2.5rem;
   margin: 2.5rem;
 }
-
-
 
 .blogImg {
   width: 100%;
@@ -295,7 +304,6 @@ hr {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-
 }
 
 .callToAction {
@@ -332,6 +340,13 @@ hr {
 
 footer {
   margin-top: 5rem;
+  list-style-type: none;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footerGrid {
@@ -374,15 +389,6 @@ footer {
   text-align: center;
   font-weight: bold;
   padding-bottom: 1%;
-}
-
-
-
-@media (max-width: 1000px) {
-  .frontpageGrid {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 1rem;
-  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -431,22 +437,27 @@ footer {
   .desktopGridImage {
     display: none;
   }
+
+  .blogGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .callToAction {
+    display: none;
+  }
+
+  .footerGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .frontpageGrid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
 }
 
 @media (min-width: 900px) {
   .mobileGridImage {
     display: none;
-  }
-}
-
-@media (max-width:900px) {
-  .callToAction {
-    display: none;
-  }
-}
-
-@media (max-width: 900px) {
-  .footerGrid {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
